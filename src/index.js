@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const authHandler = require("./middleware/auth");
 const User = require("./models/user");
 const router = require("./routes/user/user.controller");
-const port = 4000;
+const port = 5001;
 const app = express();
 app.use(express.json());
 // app.use(authHandler);
